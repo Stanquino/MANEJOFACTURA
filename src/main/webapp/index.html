@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+<h1>Carrito de Compras</h1>
+<form action="Agregar" method="post">
+    <label for="nombre">Nombre del producto:</label><br>
+    <input type="text" id="nombre" name="nombre"><br>
+    <label for="cantidad">Cantidad:</label><br>
+    <input type="number" id="cantidad" name="cantidad" min="1"><br>
+    <label for="valor">Valor unitario:</label><br>
+    <input type="number" id="valor" name="valor" min="0.01" step="0.01"><br><br>
+    <input type="submit" value="Agregar al carrito">
+</form>
+</body>
+</html>
